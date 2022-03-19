@@ -1,0 +1,24 @@
+/*
+
+  //By Alexander Hardeland
+
+*/
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 16;
+  --colorBlack: #000;
+  --colorWhite: #fff;
+}
