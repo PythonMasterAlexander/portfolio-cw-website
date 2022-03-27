@@ -1,9 +1,8 @@
 //By Alexander Hardeland
 //
 //
-//
-//
-//A list over my work places, I can easily change it up here
+export const listOfEducationContainer = document.querySelector('.main-container__work-container-list');
+
 export let workPlaces = [
   'Tunnel Arbeider',
   'Tømmrer',
