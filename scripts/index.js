@@ -1,11 +1,18 @@
 import { workPlaces } from "./components/component.js";
+import { listOfEducationContainer } from "./components/component.js";
+import { createElementFromArray } from "./functions/function.js";
+/*
+for(let i = 0; i < workPlaces.length; i++) {
 
-const listOfEducationContainer = document.querySelector('.main-container__work-container-list');
+  let listItem = document.createElement('li');
+  listItem.innerText = workPlaces[i];
 
-workPlaces.forEach((workPlace) => {
+  listOfEducationContainer.append(listItem);
+}*/
 
-  const liElement = document.createElement('li');
-  liElement.innerText = workPlace;
+workPlaces.forEach(function(item) {
+  let listItem = document.createElement('li');
+  listItem.innerText = item;
 
-  listOfEducationContainer.append(liElement);
+  listOfEducationContainer.append(listItem);
 });
