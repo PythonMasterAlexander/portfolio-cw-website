@@ -1,32 +1,4 @@
-/*
-
-  //By Alexander Hardeland
-
-*/
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-* {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-
-:root {
-  font-size: 16px;
-  --colorBlack: #000;
-  --colorWhite: #fff;
-}
-
-body {
-  font-family: 'IBM Plex Sans', 'Arial', sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'IBM Plex Mono', 'Impact', sans-serif;
-}
+@import "partials/_variables.css";
+@import "partials/_typography.css";
+@import "partials/_nav.css";
+@import "partials/_main.css";

@@ -1,7 +1,7 @@
 //By Alexander Hardeland
 //
 //
-export const listOfEducationContainer = document.querySelector('.main-container__work-container-list');
+export const listOfEducationContainer = document.querySelector('.work-container__list-container');
 
 export let workPlaces = [
   'Tunnel Arbeider',
