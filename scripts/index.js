@@ -1,6 +1,6 @@
 import { workPlaces } from "./components/component.js";
 import { listOfEducationContainer } from "./components/component.js";
-import { createElementFromArray } from "./functions/function.js";
+
 /*
 for(let i = 0; i < workPlaces.length; i++) {
 
@@ -16,3 +16,4 @@ workPlaces.forEach(function(item) {
 
   listOfEducationContainer.append(listItem);
 });
+
