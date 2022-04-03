@@ -1,4 +1,11 @@
 :root {
   font-size: 16px;
   --page-background-color: #fff;
+  --footer-background-color: ;
+
+  /*Color scheme*/
+  --white-gray: #e8eceb;
+  --orange: #e09e50;
+  --green: #8cbdb9;
+  --blue: #2d3e4e;
 }
